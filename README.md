@@ -1,10 +1,10 @@
-# 🔬 Solubility Prediction with Pretrained AI Model
+# Solubility Prediction with Pretrained AI Model
 
 This project evaluates a **pretrained chemistry AI model** on the **Delaney solubility dataset**, predicting the water solubility of organic molecules. It uses the `ChemSolubilityBERTa` model from Hugging Face and standard cheminformatics tools like RDKit to assess how well AI can predict log-solubility values (log(mol/L)) for real compounds.
 
 ---
 
-## 📁 Project Overview
+## Project Overview
 
 The goal of this project is to:
 
@@ -15,7 +15,7 @@ The goal of this project is to:
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 - **Name**: Delaney Solubility Dataset
 - **Source**: [DeepChem](https://deepchemdata.s3.amazonaws.com/datasets/delaney-processed.csv)
@@ -24,7 +24,7 @@ The goal of this project is to:
 
 ---
 
-## 🤖 AI Model Used
+## AI Model Used
 
 - **Model**: [`khanfs/ChemSolubilityBERTa`](https://huggingface.co/khanfs/ChemSolubilityBERTa)
 - **Type**: Transformer-based model (like BERT) trained on chemical SMILES strings
@@ -32,7 +32,7 @@ The goal of this project is to:
 
 ---
 
-## 🧰 Tools and Libraries
+## Tools and Libraries
 
 | Tool | Purpose |
 |------|---------|
@@ -45,7 +45,7 @@ The goal of this project is to:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 | Metric | Value | Meaning |
 |--------|-------|---------|
@@ -58,14 +58,14 @@ The goal of this project is to:
 
 ---
 
-## 📈 Output Files
+## Output Files
 
 - `solubility_prediction_results.png` – Scatter plot of predicted vs. actual solubility
 - `solubility_prediction_results.csv` – Detailed table of predictions and errors for each molecule
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have Python 3.7+ and install dependencies:
 
